@@ -21,7 +21,7 @@
 .page-1 h1{
     font-family: bold;
     font-size: 130px;
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
     animation: d1 2s forwards;
 }
@@ -154,6 +154,15 @@ i:hover{
     margin-top: 20px;
     box-shadow: 1px 1px 30px greenyellow,
     1px 2px 40px orange;
+    animation:d5 3s forwards;
+}
+@keyframes d5 {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 .photo-div{
     display: flex;
